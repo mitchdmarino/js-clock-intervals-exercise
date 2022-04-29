@@ -1,14 +1,27 @@
+body {
+    background-color: rgb(117, 200, 183);
+}
 #clock {
 }
 
 #clock img {
+   
+    position: absolute;
+    top: 100px;
+    left: 20%
 }
 
 #hour {
+    z-index: 1;
+    transform: rotate(0deg)
 }
 
 #minute {
+    z-index: 2;
+    transform: rotate(0deg)
 }
 
 #second {
+    z-index: 3;
+    transform: rotate(0deg)
 }
